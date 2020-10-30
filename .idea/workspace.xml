@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="597afbff-570e-4993-a05a-78b7daa1f7fd" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/darkbase.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/thriftCompiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/benchmark/benchmark" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/benchmark/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/benchmark/stats.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/client.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/client_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/darkbase/darkbase.pb.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/darkbase/darkbase.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/darkbase/darkbase_grpc.pb.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/conf/conf.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/db/db.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/db/rocksdb.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thrift/darkbase.thrift" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Go File" />
+      </list>
+    </option>
+  </component>
+  <component name="GOROOT" path="$USER_HOME$/.gvm/gos/go1.13" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GoLibraries">
+    <option name="indexEntireGoPath" value="false" />
+  </component>
+  <component name="ProjectId" id="1j5YhSUGfIycJkcUGwhYG7XbRLY" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultGoTemplateProperty" value="Go File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="configurable.Global.GOPATH.is.expanded" value="true" />
+    <property name="configurable.Module.GOPATH.is.expanded" value="false" />
+    <property name="configurable.Project.GOPATH.is.expanded" value="true" />
+    <property name="go.import.settings.migrated" value="true" />
+    <property name="go.sdk.automatically.set" value="true" />
+    <property name="go.tried.to.enable.integration.vgo.integrator" value="true" />
+    <property name="last_opened_file_path" value="$USER_HOME$" />
+    <property name="settings.editor.selected.configurable" value="com.goide.configuration.GoLibrariesConfigurableProvider" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/server" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Makefile.generate">
+    <configuration name="go build github.com/chenminhua/darkbase/client" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="darkbase" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <filePath value="$PROJECT_DIR$/client/main.go" />
+      <package value="github.com/chenminhua/darkbase/client" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build github.com/chenminhua/darkbase/server" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="darkbase" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <filePath value="$PROJECT_DIR$/server/main.go" />
+      <package value="github.com/chenminhua/darkbase/server" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="generate" type="MAKEFILE_TARGET_RUN_CONFIGURATION" factoryName="Makefile" temporary="true">
+      <makefile filename="$PROJECT_DIR$/Makefile" target="generate" workingDirectory="" arguments="">
+        <envs />
+      </makefile>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Makefile.generate" />
+        <item itemvalue="Go Build.go build github.com/chenminhua/darkbase/client" />
+        <item itemvalue="Go Build.go build github.com/chenminhua/darkbase/server" />
+        <item itemvalue="Makefile.generate" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="597afbff-570e-4993-a05a-78b7daa1f7fd" name="Default Changelist" comment="" />
+      <created>1603095538724</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1603095538724</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VgoProject">
+    <integration-enabled>true</integration-enabled>
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1878" height="303" key="GridCell.Tab.0.bottom" timestamp="1603793040335">
+      <screen x="-1920" y="40" width="1920" height="1080" />
+    </state>
+    <state width="1878" height="303" key="GridCell.Tab.0.bottom/-1920.40.1920.1080/0.0.1792.1120@-1920.40.1920.1080" timestamp="1603793040335" />
+    <state width="1449" height="289" key="GridCell.Tab.0.bottom/-1920.63.1920.1057/0.23.1792.1097@-1920.63.1920.1057" timestamp="1603169012049" />
+    <state width="1750" height="318" key="GridCell.Tab.0.bottom/0.0.1792.1120@0.0.1792.1120" timestamp="1603124382734" />
+    <state width="1878" height="303" key="GridCell.Tab.0.center" timestamp="1603793040332">
+      <screen x="-1920" y="40" width="1920" height="1080" />
+    </state>
+    <state width="1878" height="303" key="GridCell.Tab.0.center/-1920.40.1920.1080/0.0.1792.1120@-1920.40.1920.1080" timestamp="1603793040332" />
+    <state width="1449" height="289" key="GridCell.Tab.0.center/-1920.63.1920.1057/0.23.1792.1097@-1920.63.1920.1057" timestamp="1603169012048" />
+    <state width="1750" height="318" key="GridCell.Tab.0.center/0.0.1792.1120@0.0.1792.1120" timestamp="1603124382733" />
+    <state width="1878" height="303" key="GridCell.Tab.0.left" timestamp="1603793040331">
+      <screen x="-1920" y="40" width="1920" height="1080" />
+    </state>
+    <state width="1878" height="303" key="GridCell.Tab.0.left/-1920.40.1920.1080/0.0.1792.1120@-1920.40.1920.1080" timestamp="1603793040331" />
+    <state width="1449" height="289" key="GridCell.Tab.0.left/-1920.63.1920.1057/0.23.1792.1097@-1920.63.1920.1057" timestamp="1603169012047" />
+    <state width="1750" height="318" key="GridCell.Tab.0.left/0.0.1792.1120@0.0.1792.1120" timestamp="1603124382732" />
+    <state width="1878" height="303" key="GridCell.Tab.0.right" timestamp="1603793040333">
+      <screen x="-1920" y="40" width="1920" height="1080" />
+    </state>
+    <state width="1878" height="303" key="GridCell.Tab.0.right/-1920.40.1920.1080/0.0.1792.1120@-1920.40.1920.1080" timestamp="1603793040333" />
+    <state width="1449" height="289" key="GridCell.Tab.0.right/-1920.63.1920.1057/0.23.1792.1097@-1920.63.1920.1057" timestamp="1603169012049" />
+    <state width="1750" height="318" key="GridCell.Tab.0.right/0.0.1792.1120@0.0.1792.1120" timestamp="1603124382733" />
+    <state x="-1495" y="262" key="SettingsEditor" timestamp="1603157149872">
+      <screen x="-1920" y="63" width="1920" height="1057" />
+    </state>
+    <state x="-1495" y="262" key="SettingsEditor/-1920.63.1920.1057/0.23.1792.1097@-1920.63.1920.1057" timestamp="1603157149872" />
+    <state x="397" y="230" key="SettingsEditor/0.23.1792.1097@0.23.1792.1097" timestamp="1603123277410" />
+    <state x="-1295" y="281" width="670" height="676" key="search.everywhere.popup" timestamp="1603607028790">
+      <screen x="-1920" y="40" width="1920" height="1080" />
+    </state>
+    <state x="-1295" y="281" width="670" height="676" key="search.everywhere.popup/-1920.40.1920.1080/0.0.1792.1120@-1920.40.1920.1080" timestamp="1603607028790" />
+  </component>
+</project>

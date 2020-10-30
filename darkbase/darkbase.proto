@@ -1,0 +1,84 @@
+syntax = "proto3";
+
+enum ErrorCode {
+  Success = 0;
+  NotFound = 5404;
+
+  UnknownError = 5300;
+  ResponseRequired = 5301;
+  HugePipeline = 5302;
+  ServerTimeout = 5303;
+  // table is nil or table not in cluster
+  TableNilOrNotMatch = 5304;
+  ClientClosed = 5305;
+  // parameters error
+  InvalidArgument = 5308;
+  // probably parse int failed
+  InvalidResponseType = 5309;
+  ServerBroken = 5310;
+  GdprAuthFail = 5311;
+  QueueChaos = 5312;
+
+  // parameters error
+  BadRequest = 5400;
+  // big value
+  HugeFrame = 5401;
+  MethodNotAllowed = 5405;
+  // generation mismatch. in xget/xset
+  InvalidGeneration = 5497;
+  InternalServerError = 5500;
+  // method not implemented in server
+  NotImplemented = 5501;
+  ServiceUnavailable = 5503;
+
+  // for scan
+  ScanTimeout = 5510;
+
+  // task queue is full
+  TaskQueueFull = 5511;
+
+  // slave is stale
+  OutOfSync = 5599;
+}
+
+message GetRequest {
+  string key = 1;
+  string table_name = 2;
+}
+
+message GetResponse {
+  ErrorCode errCode = 1;
+  bytes value = 2;
+}
+
+message BatchGetRequest {
+  string table_name = 1;
+  repeated GetRequest reqs = 2;
+}
+
+message BatchGetResponse {
+  repeated GetResponse resp = 1;
+}
+
+message BatchPutRequest {
+  string table_name = 1;
+  repeated PutRequest req = 2;
+}
+
+message PutRequest {
+  string key = 1;
+  string table_name = 2;
+  bytes value = 3;
+}
+
+message PutResponse {
+  ErrorCode errCode = 1;
+}
+
+service DarkbaseService {
+  rpc Get(GetRequest) returns (GetResponse);
+  rpc Put(PutRequest) returns (PutResponse);
+  rpc BatchGet(BatchGetRequest) returns (BatchGetResponse);
+  rpc BatchPut(BatchPutRequest) returns (BatchPutRequest);
+}
+
